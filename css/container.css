@@ -1,0 +1,95 @@
+#container
+{
+    margin: 0;
+    border: 0;
+    padding: 14px;
+    min-height: 650px;
+    background-color: rgba(255, 255, 255, 0.336);
+    background-clip: content-box;
+}
+
+.frame1
+{
+    width: 204px;
+    height: 278px;
+    border: 1px solid black;
+    margin: 20px 20px auto;
+    float: left;
+    background-image: url("../images/9.jpg");
+    background-size: cover;
+}
+
+.frame11
+{
+    width: 204px;
+    height: 92.7px;
+    background-image: url("../images/60.jpg");
+    background-size: cover;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.frame12
+{
+    width: 204px;
+    height: 92.7px;
+    background-image: url("../images/miku.png");
+    background-size: cover;
+    opacity: 0;
+    transition: 0.9s;
+}
+.frame13
+{
+    width: 204px;
+    height: 92.7px;
+    background-image: url("../images/universe2.jpg");
+    background-size: cover;
+    opacity: 0;
+    transition: 1.5s;
+}
+.frame1:hover .frame11
+{
+    opacity: 1;
+}
+.frame1:hover .frame12
+{
+    opacity: 1;
+}
+.frame1:hover .frame13
+{
+    opacity: 1;
+}
+
+.frame2
+{
+    width: 204px;
+    height: 278px;
+    border: 1px solid black;
+    margin: 20px 20px auto;
+    float: left;
+    background-image: url("../images/13.jpg");
+    background-size: cover;
+}
+.frame21
+{
+    width: 204px;
+    height: 278px;
+    background-image: url("../images/94.jpg");
+    background-size: cover;
+    opacity: 0;
+    transition: 0.5s;
+}
+.frame2:hover .frame21
+{
+    opacity: 1;
+}
+
+.frame3
+{
+    width: 204px;
+    height: 278px;
+    border: 1px solid black;
+    margin: 20px 20px auto;
+    float: left;
+    background-color: rgba(0, 0, 255, 0.205);
+}

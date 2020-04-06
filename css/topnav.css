@@ -1,0 +1,52 @@
+
+*{margin: 0;padding: 0;}
+body
+{
+   background-image: url("../images/universe.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-color: #cccccc;
+}
+
+.row
+{
+   width: auto;
+   height: 40px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+li p
+{
+   color: red;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: xx-large;
+   text-align: center;
+   
+   height: 40px;
+}
+li a
+{
+   display: block;
+   color: white;
+   padding: 9.6px 32px;
+   text-decoration: none;
+}
+
+.li1
+{
+   width: 100px;
+   height: 40px;
+   float: right;
+}
+.li2
+{
+   width: 340px;
+   height: 40px;
+   float: left;
+}
+
+
